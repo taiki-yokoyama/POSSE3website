@@ -40,26 +40,4 @@ if (preg_match('#^/self/([a-zA-Z0-9_-]+)/([a-zA-Z0-9_-]+)$#', $requestUri, $matc
     
     include __DIR__ . '/self/footer.php';
     
-} elseif ($requestUri === '/' || $requestUri === '/index.php') {
-    // トップページ（将来用）
-    echo '<!DOCTYPE html>';
-    echo '<html lang="ja">';
-    echo '<head><meta charset="UTF-8"><title>POSSE3 Website</title></head>';
-    echo '<body>';
-    echo '<h1>Welcome to POSSE3 Website</h1>';
-    echo '<p><a href="self/fifth_generation/takato">自己紹介サンプル</a></p>';
-    echo '</body>';
-    echo '</html>';
-    
-} else {
-    // 404 Not Found
-    http_response_code(404);
-    echo '<!DOCTYPE html>';
-    echo '<html lang="ja">';
-    echo '<head><meta charset="UTF-8"><title>404 Not Found</title></head>';
-    echo '<body>';
-    echo '<h1>404 Not Found</h1>';
-    echo '<p>ページが見つかりませんでした。</p>';
-    echo '</body>';
-    echo '</html>';
 }
