@@ -3,7 +3,7 @@
  * シンプルなルーター
  * 
  * ルート:
- * - /self/{id} : 自己紹介ページ
+ * - /self/{期}/{名前} : 自己紹介ページ
  */
 
 // リクエストURIを取得（クエリストリングを除去）
@@ -19,21 +19,22 @@ if ($basePath !== '/' && $basePath !== '\\') {
 $requestUri = '/' . ltrim($requestUri, '/');
 
 // ルーティング
-if (preg_match('#^/self/([a-zA-Z0-9_-]+)$#', $requestUri, $matches)) {
-    // /self/{id} - 自己紹介ページ
-    $id = $matches[1];
+if (preg_match('#^/self/([a-zA-Z0-9_-]+)/([a-zA-Z0-9_-]+)$#', $requestUri, $matches)) {
+    // /self/{期}/{名前} - 自己紹介ページ
+    $generation = $matches[1];
+    $name = $matches[2];
     
     // 自己紹介ページを表示
     include __DIR__ . '/self/header.php';
     
     // 各メンバーの自己紹介ファイルがあれば読み込む
-    $memberFile = __DIR__ . '/self/members/' . $id . '.php';
+    $memberFile = __DIR__ . '/self/' . $generation . '/' . $name . '.php';
     if (file_exists($memberFile)) {
         include $memberFile;
     } else {
         echo '<div class="error">';
         echo '<h1>404 Not Found</h1>';
-        echo '<p>メンバー「' . htmlspecialchars($id, ENT_QUOTES, 'UTF-8') . '」は見つかりませんでした。</p>';
+        echo '<p>メンバー「' . htmlspecialchars($generation, ENT_QUOTES, 'UTF-8') . '/' . htmlspecialchars($name, ENT_QUOTES, 'UTF-8') . '」は見つかりませんでした。</p>';
         echo '</div>';
     }
     
@@ -46,7 +47,7 @@ if (preg_match('#^/self/([a-zA-Z0-9_-]+)$#', $requestUri, $matches)) {
     echo '<head><meta charset="UTF-8"><title>POSSE3 Website</title></head>';
     echo '<body>';
     echo '<h1>Welcome to POSSE3 Website</h1>';
-    echo '<p><a href="self/example">自己紹介サンプル</a></p>';
+    echo '<p><a href="self/fifth_generation/takato">自己紹介サンプル</a></p>';
     echo '</body>';
     echo '</html>';
     
