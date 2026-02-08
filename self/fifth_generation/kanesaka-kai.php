@@ -121,9 +121,6 @@ require_once __DIR__ . "../footer.php";
         </section>
 
         <section>
-            
-
-        <section>
             <h2>Interests</h2>
             <p>プログラミング（Docker/Laravel）と英語を武器に、将来は<strong>パーマカルチャー</strong>を取り入れた持続可能な暮らしを目指しています。</p>
         </section>
