@@ -1,7 +1,7 @@
 services:
   # ① Webサーバー (Nginx)
   web:
-    image: nginx:latest
+    image: nginx:1.27.0
     ports:
       - "${APP_PORT}:80"
     volumes:
