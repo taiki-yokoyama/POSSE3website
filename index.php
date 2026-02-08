@@ -1,4 +1,8 @@
 <?php
+echo "<h1>Hello from PHP!</h1>";
+?>
+
+<?php
 /**
  * シンプルなルーター
  *
@@ -39,5 +43,4 @@ if (preg_match('#^/self/([a-zA-Z0-9_-]+)/([a-zA-Z0-9_-]+)$#', $requestUri, $matc
     }
 
     include __DIR__ . '/self/footer.php';
-
 }
