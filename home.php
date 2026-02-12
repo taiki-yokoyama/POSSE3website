@@ -3,7 +3,6 @@ require_once __DIR__ . "/self/header.php";
 //データ直置き
 require_once __DIR__ . "/member_data.php";
 ?>
-
 <!DOCTYPE html>
 <html lang="ja">
 <head>
@@ -88,9 +87,6 @@ require_once __DIR__ . "/member_data.php";
             </a>
         <?php endforeach; ?>
     </div>
-
 <?php
 require_once __DIR__ . "/self/footer.php";
 ?>
-</body>
-</html>
