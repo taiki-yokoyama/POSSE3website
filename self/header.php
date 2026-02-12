@@ -19,7 +19,7 @@
         }
     </script>
 </head>
-<body class="bg-slate-50 min-h-screen flex flex-col font-sans">
+<body class="bg-slate-50 min-h-screen flex flex-col font-sans p-0 m-0">
     <header class="bg-gradient-to-br from-primary to-primary-dark shadow-lg shadow-blue-500/30 sticky top-0 z-50">
         <div class="max-w-6xl mx-auto px-6 flex justify-between items-center h-[70px]">
             <a href="home.php" class="text-2xl font-bold text-white tracking-wider no-underline">POSSE <span class="text-blue-300">5th</span></a>
