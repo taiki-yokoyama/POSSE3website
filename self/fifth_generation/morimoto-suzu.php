@@ -15,7 +15,7 @@ require_once __DIR__ . "/../header.php";
     <section class="mb-6">
         <h2 class="text-lg font-bold text-slate-800 pb-1 mb-3">自己紹介</h2>
         <div class="bg-slate-50 p-4 rounded">
-            <p class="text-sm text-slate-700">デザインとフロントエンドの橋渡しができる人材を目指しています。Figmaでの制作が好きです。</p>
+            <p class="text-sm text-slate-700">デザインとフロントエンドの橋渡しができる人材を目指しています。明大前に住んでいますがキャンパスが変わるのでそろそろ引っ越したいです。</p>
         </div>
     </section>
 

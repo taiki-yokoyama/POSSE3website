@@ -12,7 +12,7 @@ require_once __DIR__ . "/../header.php";
     <section class="mb-6">
         <h2 class="text-lg font-bold text-slate-800 pb-1 mb-3">自己紹介</h2>
         <div class="bg-slate-50 p-4 rounded">
-            <p class="text-sm text-slate-700">サーバーサイドの学習が中心です。NodeやPHPでの開発経験を増やし、安定したサービスを作れるようになりたいです。</p>
+            <p class="text-sm text-slate-700">格闘技をやっています。人を殴るのが大好きです。</p>
         </div>
     </section>
 

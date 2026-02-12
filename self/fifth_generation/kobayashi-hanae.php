@@ -22,8 +22,8 @@ require_once __DIR__ . "/../header.php";
     <section class="mb-6">
         <h2 class="text-lg font-bold text-slate-800 pb-1 mb-3">スキル</h2>
         <div class="flex flex-wrap gap-2">
-            <span class="bg-slate-100 text-slate-800 px-3 py-1 rounded-full text-xs">Figma</span>
-            <span class="bg-slate-100 text-slate-800 px-3 py-1 rounded-full text-xs">HTML/CSS</span>
+            <span class="bg-slate-100 text-slate-800 px-3 py-1 rounded-full text-xs">HTML</span>
+            <span class="bg-slate-100 text-slate-800 px-3 py-1 rounded-full text-xs">馬場ウォーク</span>
         </div>
     </section>
 

@@ -15,16 +15,16 @@ require_once __DIR__ . "/../header.php";
     <section class="mb-6">
         <h2 class="text-lg font-bold text-slate-800 pb-1 mb-3">自己紹介</h2>
         <div class="bg-slate-50 p-4 rounded">
-            <p class="text-sm text-slate-700">データ分析に興味があり、Pythonでデータ処理を勉強中です。最近は機械学習の基礎を学んでいます。</p>
+            <p class="text-sm text-slate-700">データ分析に興味があり、Pythonでデータ処理を勉強中です。マッチングアプリの解析に使います。</p>
         </div>
     </section>
 
     <section class="mb-6">
         <h2 class="text-lg font-bold text-slate-800 pb-1 mb-3">スキル</h2>
         <div class="flex flex-wrap gap-2">
-            <span class="bg-slate-100 text-slate-800 px-3 py-1 rounded-full text-xs">Python</span>
-            <span class="bg-slate-100 text-slate-800 px-3 py-1 rounded-full text-xs">Pandas</span>
-            <span class="bg-slate-100 text-slate-800 px-3 py-1 rounded-full text-xs">機械学習（勉強中）</span>
+            <span class="bg-slate-100 text-slate-800 px-3 py-1 rounded-full text-xs">Yuen</span>
+            <span class="bg-slate-100 text-slate-800 px-3 py-1 rounded-full text-xs">Fanza</span>
+            <span class="bg-slate-100 text-slate-800 px-3 py-1 rounded-full text-xs">Pairs</span>
         </div>
     </section>
 
