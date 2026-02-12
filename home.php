@@ -3,7 +3,6 @@ require_once __DIR__ . "/self/header.php";
 //データ直置き
 require_once __DIR__ . "/member_data.php";
 ?>
-
 <h1 class="text-3xl font-bold text-center text-slate-800 mb-10">メンバー紹介</h1>
 
 <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 max-w-6xl mx-auto">
@@ -17,7 +16,3 @@ require_once __DIR__ . "/member_data.php";
         </a>
     <?php endforeach; ?>
 </div>
-
-<?php
-require_once __DIR__ . "/self/footer.php";
-?>
